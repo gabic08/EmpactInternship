@@ -5,6 +5,8 @@ namespace NewsApi.Data
 {
     public class NewsContext : DbContext
     {
+        //Some rows are commented because initially I used the PostgreSQL database
+        
         //public const string SCHEMA = "News";
 
         public NewsContext(DbContextOptions<NewsContext> options)
